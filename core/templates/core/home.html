@@ -1,0 +1,21 @@
+{% extends 'core/base.html' %}
+{% load static %}
+{% block content %}
+    <div class="mt-5">
+        <div class="text-center"><img src="{% static 'core/images/profile.jpg' %}" alt="profilePicture" class="img-thumbnail" width="250px" height="150px"></div>
+        
+        <div class="mt-5 text-white px-5 text-justify">
+            <h1 class="font-weight-bold st-family">Asslamualikum</h1>
+            <div class="px-4" style="line-height:2rem;">
+                <p style="text-indent:100px;">I am <b class="text-warning">Muhammad Zohaib Ul Hassan
+                </b> having 02 years of experience of full stack web development for global businessess, I offer the technical expertise you are seeking for your web developer position</p>
+                <p>Since earing my bachelor's degree in <b class="text-warning">Information and Technology</b> from the <b class="text-warning">Islamia University of Bahawalpur</b>.I have served as web developer at <b class="text-warning">Awais Web Dev</b> one of the biggest digital marketing and web3.0 development firm in Pakistan.I have led many web development projects.</p>
+            </div>
+        </div>
+        <div class="text-center">
+            <a href="{% url 'contact' %}" class="btn btn-outline-warning my-3 mr-5">Hire Me</a>
+            <a href="{% url 'skills' %}" class="btn btn-outline-info my-3">Skills</a>
+        </div>
+    </div>
+
+{% endblock content %}

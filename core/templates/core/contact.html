@@ -1,0 +1,56 @@
+{% extends 'core/base.html' %}
+
+{% block content %}
+    <div class="container mt-5">
+        <h1 class="text-warning mb-5 border-bottom">CONTACT US</h1>
+        <div class="row text-white mb-5">
+            <p class="mx-auto mb-5">
+                Do you have any questions? Please do not hesitate to contact.I Will come back to you within a matter of hours to help you.
+            </p>
+            <div class="col-sm-9 mb-5"><form action="">
+                <div class="form-row">
+                  <div class="form-group col-md-6">
+                      <label for="inputName">Your Name</label>
+                      <input type="text" name="" id="inputName" class="form-control">
+                    </div>
+                    <div class="form-group col-md-6">
+                    <label for="inputEmail">Your Email</label>
+                    <input type="email" name="" id="inputEmail" class="form-control">
+                   </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputSubject">Your Subjext</label>
+                    <input type="text" name="" id="inputSubject" class="form-control">
+                </div>
+                <div class="mb-3">
+                    <label for="inputTextarea">Your message</label>
+                    <textarea name="" id="inputTextarea" cols="30" rows="10" class="form-control"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send</button>
+            </form></div>
+            <div class="col-sm-3 text-center">
+                <ul class="list-unstyled">
+                    <li>
+                        <i class="fas fa-map-marker-alt fa-2x i-col"></i>
+                        <p>Bahawalpur, Punjab, Pakistan</p>
+                    </li>
+                    <li>
+                        <i class="fas fa-phone mt-4 fa-2x i-col"></i>
+                        <p>+ 92 305 6705232</p>
+                    </li>
+                    <li>
+                        <i class="fas fa-envelope mt-4 fa-2x i-col"></i>
+                        <p>zohaibfas@gmail.com</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="text-center mb-5">
+        <a href="twitter.com/zohaibwebdev" class=""><i class="fab fa-twitter i-col i-col mr-3"></i></a>
+        <a href="facebook.com/zohaibthefreelacer"><i class="fab fa-facebook-f i-col mr-3"></i></a>
+        <a href="instagram.com/zohaib_iub"><i class="fab fa-instagram i-col mr-3"></i></a>
+    </div>
+
+{% endblock content %}
